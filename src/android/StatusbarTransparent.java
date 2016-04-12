@@ -21,7 +21,7 @@ public class StatusbarTransparent extends CordovaPlugin {
 		if (Build.VERSION.SDK_INT >= 21) {
 		
 		    // Set the status bar to dark-semi-transparentish
-		    getWindow().setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS,
+		    	cordova.getActivity().getWindow().setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS,
 		            WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
 		
 		    // Set paddingTop of toolbar to height of status bar.
