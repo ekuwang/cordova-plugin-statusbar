@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin 
-		xmlns="http://www.phonegap.com/ns/plugins/1.0"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    id="net.ekuwang.cordova.plugin.statusbar"
-    version="1.0.0">
-
-	<name>StatusbarTransparent</name>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-statusbar-transparent" version="1.0.0">
+	<name>cordova-plugin-statusbar-transparent</name>
 	<description>Set statusbar to be transparent on android kitkat or higher.</description>
 	<license>MIT</license>
 
